@@ -19,12 +19,13 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical" >
+            android:orientation="vertical">
 
             <TextView
                 android:id="@+id/textViewReserve"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-smallcaps"
                 android:text="@string/reservation_details"
                 android:textColor="#000000"
                 android:textSize="30sp" />
@@ -34,11 +35,12 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
+                android:fontFamily="sans-serif-smallcaps"
                 android:text="@string/fullName"
                 android:textSize="18sp" />
 
             <EditText
-                android:id="@+id/editTextTextPersonName"
+                android:id="@+id/editTextName"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
@@ -49,6 +51,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-smallcaps"
                 android:text="@string/phone_number"
                 android:textSize="18sp" />
 
@@ -70,6 +73,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:fontFamily="sans-serif-smallcaps"
                     android:text="@string/no_of_pax"
                     tools:textSize="18sp" />
 
@@ -87,13 +91,16 @@
                     android:layout_marginStart="40dp"
                     android:layout_marginLeft="40dp"
                     android:layout_weight="1"
-                    android:text="@string/smoking_area" />
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:text="@string/smoking_area"
+                    android:textSize="18sp" />
             </LinearLayout>
 
             <TextView
                 android:id="@+id/textView4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-smallcaps"
                 android:text="@string/booking"
                 tools:layout_marginTop="20dp"
                 tools:textSize="18sp" />
@@ -135,14 +142,18 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="@string/submit" />
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:text="@string/submit"
+                    tools:textSize="18sp" />
 
                 <Button
                     android:id="@+id/buttonReset"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="@string/reset" />
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:text="@string/reset"
+                    tools:textSize="18sp" />
             </LinearLayout>
 
         </LinearLayout>
