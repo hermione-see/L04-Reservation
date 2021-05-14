@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.view.View;
+import android.widget.BaseAdapter;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.DatePicker;
@@ -50,6 +51,7 @@ public class MainActivity extends AppCompatActivity {
                 etName.setText(" ");
                 etNumber.setText(" ");
                 checkBox.setChecked(false);
+                spinner.setSelection(0);
 
             }
         });
